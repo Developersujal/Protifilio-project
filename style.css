@@ -80,12 +80,12 @@ section .bio .section-btns{
 #CV-button{
     position: absolute;
     top:31%;
-    left:5.5%;
+    left:7%;
 }
 #Get-touch-button{
     position: absolute;
     top:31%;
-    left:32%;
+    left:42%;
 }
 section .profile-pic{
     height: 100%;
@@ -130,13 +130,14 @@ aside .social-links i{
     font-weight: 800;
 }
 #page2{
+    /* background-color: rgba(170, 112, 112, 0.335); */
     height: 100vh;
     width: 100% ;
     position: relative;
 }
 #page2 .content{
     position: absolute;
-    top: 55%;
+    top: 10%;
     left: 30%;
     height: 60vh;
     width: 50vw;
@@ -163,32 +164,32 @@ aside .social-links i{
 }
 #page2 svg:nth-child(1){
     position: absolute;
-    top: 49%;
+    top: -1%;
     left: 0%;
     z-index: -1;
 }
 #page2 svg:nth-child(2){
     position: absolute;
-    /* top: 100%; */
-    bottom: -43%;
-    left: 18%;
+    top: 61%;
+    /* bottom: -43%; */
+    left: 17%;
     z-index: -1;
 }
 #page2 svg:nth-child(3){
     position: absolute;
-    top: 104%;
-    right: 15%;
+    top: 58%;
+    right: 13%;
     z-index: -1;
 }
 #page2 svg:nth-child(4){
     position: absolute;
-    top: 50%;
+    top: 9%;
     right: 0%;
     z-index: -1;
 }
 #hand-svg{
     position: absolute;
-    top:45%;
+    top:-15%;
     z-index: -1;
 }
 .line-up{
@@ -196,7 +197,7 @@ aside .social-links i{
     background-color: black;
     width: 35%;
     position: absolute;
-    top: 63%;
+    top: 16%;
     left: 45%;
 }
 .line-down{
@@ -204,7 +205,7 @@ aside .social-links i{
     background-color: black;
     width: 15%;
     position: absolute;
-    /* top: 100%; */
-    bottom: -12%;
+    top: 70%;
+    /* bottom: -12%; */
     left: 45%;
 }
