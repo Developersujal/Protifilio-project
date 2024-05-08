@@ -74,8 +74,31 @@ section .bio p{
 }
 section .bio .section-btns{
     margin-top: 5vh;
-    position: relative;
+    /* position: relative; */
     /* background-color: rgb(28, 67, 100);   */
+    height: 10vh;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+}
+.section-btns button{
+    color: white;
+    font-size: 1vw;
+    font-weight: 800;
+    padding: 0vh 0.5vw;
+    height: 80%;
+    width: 35%;
+    border: 4px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section-btns button:nth-child(1){
+    background: linear-gradient(to right,rgb(220, 163, 57),rgb(255, 166, 0));
+}
+.section-btns button:nth-child(2){
+    background: linear-gradient(to right,gray,black);
 }
 #CV-button{
     position: absolute;
@@ -273,6 +296,16 @@ aside .social-links i{
         font-size: 1.5vw;
     }
   }
+  @media screen and (max-width: 550px){
+    #hand-svg{
+        position: absolute;
+        top:-5%;
+        z-index: -1;
+        height: 500px;
+        width: 140px;
+    }
+  }
+
 
   @media screen and (max-width: 800px){
     #CV-button{
@@ -298,4 +331,39 @@ aside .social-links i{
         top:66%;
         left:12%;
     }
+    section .bio .section-btns{
+        margin-top: 5vh;
+        /* position: relative; */
+        /* background-color: rgb(28, 67, 100);   */
+        height: 20vh;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 14px;
+    }
+    .section-btns button{
+        color: white;
+        font-size: 1.1vw;
+        font-weight: 800;
+        padding: 0vh 0.5vw;
+        height: 80%;
+        width: 35%;
+        border: 4px solid white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
   }
+
+  /* @media screen and (max-width: 1201px){
+    #CV-button{
+        position: absolute;
+        top:31%;
+        left: 10%;
+    }
+    #Get-touch-button{
+        position: absolute;
+        top:33%;
+        left:53%;
+    }
+  } */
