@@ -273,3 +273,29 @@ aside .social-links i{
         font-size: 1.5vw;
     }
   }
+
+  @media screen and (max-width: 800px){
+    #CV-button{
+        position: absolute;
+        top:17%;
+        left: 18%;
+    }
+    #Get-touch-button{
+        position: absolute;
+        top:66%;
+        left:19%;
+    }
+  }
+
+  @media screen and (max-width: 1055px){
+    #CV-button{
+        position: absolute;
+        top:16%;
+        left: 13%;
+    }
+    #Get-touch-button{
+        position: absolute;
+        top:66%;
+        left:12%;
+    }
+  }
