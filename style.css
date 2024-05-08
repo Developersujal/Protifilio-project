@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+  }
+#page1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    padding: 0vh 2vw;
+}
+nav .name{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+nav .btns{
+    display: flex;
+    align-items: center;
+}
+nav .btns a{
+    margin-right: 1.5vw;
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+#page1 section{
+    margin-top: 10vh;
+    height: 80vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    padding: 0vh 7vw;
+}
+section .bio{
+    padding-top: 8vh;
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+}
+section .bio h1{
+    margin-top: 2vh;
+    font-size: 2.5vw;
+}
+section .bio h1 span{
+    color: gray;
+    text-decoration: underline black ;
+}
+section .bio p{
+    font-size: 1.8vw;
+    width: 85%;
+    margin-top: 2vh;
+}
+section .bio .section-btns{
+    margin-top: 5vh;
+    position: relative;
+    /* background-color: rgb(28, 67, 100);   */
+}
+#CV-button{
+    position: absolute;
+    top:31%;
+    left:5.5%;
+}
+#Get-touch-button{
+    position: absolute;
+    top:31%;
+    left:32%;
+}
+section .profile-pic{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(61, 154, 154); */
+    display: flex;
+    justify-content: center;
+}
+aside{
+    height: 35vh;
+    width: 2%;
+    position: fixed;
+    left: 3%;
+    top: 63%;
+    /* background-color: chartreuse; */
+}
+aside .social-links{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+aside .social-links i{
+    font-size: 4vh;
+}
+#email{
+    height: 45vh;
+    width: 2%;
+    position: fixed;
+    right: 3%;
+    top: 50%;
+    /* background-color: aqua;  */
+    border-bottom: 5px solid black;
+}
+#email p{
+    /* height: 45vh; */
+    /* width: 2%; */
+    position: absolute;
+    right: -290%;
+    top: 58%;
+    rotate: -90deg;
+    font-size: 1vw;
+    font-weight: 800;
+}
+#page2{
+    height: 100vh;
+    width: 100% ;
+    position: relative;
+}
+#page2 .content{
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    height: 60vh;
+    width: 50vw;
+    /* background-color: aqua; */
+    /* border-bottom: 1px solid black; */
+}
+#T{
+    font-size: 7vh;
+}
+#page2 .content h1{
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#page2 .content .text{
+    margin-top: 4vh;
+    font-size: 1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#page2 .content .text:nth-child(3){
+    margin-top: 0vh
+}
+#page2 .content .text span{
+    font-weight: 600;
+}
+#page2 svg:nth-child(1){
+    position: absolute;
+    top: 49%;
+    left: 0%;
+    z-index: -1;
+}
+#page2 svg:nth-child(2){
+    position: absolute;
+    /* top: 100%; */
+    bottom: -43%;
+    left: 18%;
+    z-index: -1;
+}
+#page2 svg:nth-child(3){
+    position: absolute;
+    top: 104%;
+    right: 15%;
+    z-index: -1;
+}
+#page2 svg:nth-child(4){
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    z-index: -1;
+}
+#hand-svg{
+    position: absolute;
+    top:45%;
+    z-index: -1;
+}
+.line-up{
+    height: 2px;
+    background-color: black;
+    width: 35%;
+    position: absolute;
+    top: 63%;
+    left: 45%;
+}
+.line-down{
+    height: 2px;
+    background-color: black;
+    width: 15%;
+    position: absolute;
+    /* top: 100%; */
+    bottom: -12%;
+    left: 45%;
+}
