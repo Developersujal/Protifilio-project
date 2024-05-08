@@ -209,3 +209,67 @@ aside .social-links i{
     /* bottom: -12%; */
     left: 45%;
 }
+@media screen and (max-width: 600px) {
+    section .bio h1{
+        margin-top: 2vh;
+        font-size: 4.5vw;
+    }
+    section .bio p{
+        font-size: 2.2vw;
+        width: 85%;
+        margin-top: 2vh;
+    }
+    #CV-button{
+        position: absolute;
+        top:17%;
+        left: 22%;
+    }
+    #Get-touch-button{
+        position: absolute;
+        top:66%;
+        left:24%;
+    }
+    #hand-svg{
+        position: absolute;
+        top:-10%;
+        z-index: -1;
+        height: 530px;
+        width: 120px;
+    }
+    .line-down{
+        height: 2px;
+        background-color: black;
+        width: 15%;
+        position: absolute;
+        top: 53%;
+        /* bottom: -12%; */
+        left: 45%;
+    }
+    .line-up{
+        height: 2px;
+        background-color: black;
+        width: 30%;
+        position: absolute;
+        top: 15%;
+        left: 48%;
+    }
+    #T{
+        font-size: 5vh;
+    }
+    #page2 .content .text{
+        font-size: 1.5vw;
+    }
+  }
+
+  @media screen and (max-width: 700px){
+    #hand-svg{
+        position: absolute;
+        top:-5%;
+        z-index: -1;
+        height: 500px;
+        width: 170px;
+    }
+    #page2 .content .text{
+        font-size: 1.5vw;
+    }
+  }
