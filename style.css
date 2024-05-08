@@ -290,7 +290,7 @@ aside .social-links i{
         top:-5%;
         z-index: -1;
         height: 500px;
-        width: 170px;
+        width: 160px;
     }
     #page2 .content .text{
         font-size: 1.5vw;
@@ -302,7 +302,7 @@ aside .social-links i{
         top:-5%;
         z-index: -1;
         height: 500px;
-        width: 140px;
+        width: 100px;
     }
   }
 
@@ -355,7 +355,7 @@ aside .social-links i{
     }
   }
 
-  /* @media screen and (max-width: 1201px){
+  @media screen and (max-width: 1201px) and (min-width:550px){
     #CV-button{
         position: absolute;
         top:31%;
@@ -366,4 +366,11 @@ aside .social-links i{
         top:33%;
         left:53%;
     }
-  } */
+    #hand-svg{
+        position: absolute;
+        top:-5%;
+        z-index: -1;
+        height: 500px;
+        width: 170px;
+    }
+  }
